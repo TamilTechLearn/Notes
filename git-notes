@@ -1,0 +1,60 @@
+->config
+	->git config --global user.name "TamilTechLearn"
+	->git config --global user.email "tamilselvansubu74@gmail.com"
+
+->clone repository
+	->git clone https://github.com/TamilTechLearn/SampleRepo.git
+->Youtube
+	->https://www.youtube.com/watch?v=WzO6VynQ7UM
+->Command meaning
+	->U-untracked
+	->git add
+		->make files ready to stage
+	->git commit -m "Some Msg"
+		->files will be staged
+	->git push
+		->Staged files will be uploaded in cloud
+->proper way to give commit msg
+	->https://www.conventionalcommits.org/
+		->fixing somethig 
+			-> fix: msg
+		->creating feature
+			-> feat:msg
+		->refatoring something , rename, changing variable name
+			-> refactor:msg
+		->writing documentation
+			->docs:msg
+		->unimportant-work
+			->chore:msg
+		->making some changes that will affect other people(breaking changes)
+			->!fix:msg
+->commit
+	-> git commit -m "feet: added my name"
+->push
+	-> git push orgin main
+->pull
+	-> git pull
+->git diff
+	-> to differentiat content inside files
+->git branch
+	-> show us current branch we are.
+->create new branch
+	->git checkout -b "frontend"
+->switch back to main branch
+	->git checkout main
+->push code in specific branch
+	->git push origin frontend
+->merge conflict
+	-> git pull origin main
+->git stash
+	->git stash & git pull
+	->git stash pop
+		->it will conflict
+->rename branch
+	->git branch -M "friendBackend"
+
+->To list all branch like cloud and local
+	->git branch -a
+
+-> Readmen.md
+	->https://www.markdownguide.org/basic-syntax/
