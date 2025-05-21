@@ -60,3 +60,5 @@
 	->https://www.markdownguide.org/basic-syntax/
 ->add token
 	->git remote set-url origin https://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@github.com/TamilTechLearn/Notes.git
+->Added token
+	->git remote set-url origin https://<token>@github.com/<username>/<repo>.git
