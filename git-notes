@@ -16,11 +16,11 @@
 		->Staged files will be uploaded in cloud
 ->proper way to give commit msg
 	->https://www.conventionalcommits.org/
-		->fixing somethig 
+		->fixing something
 			-> fix: msg
 		->creating feature
 			-> feat:msg
-		->refatoring something , rename, changing variable name
+		->refactoring something , rename, changing variable name
 			-> refactor:msg
 		->writing documentation
 			->docs:msg
@@ -31,11 +31,11 @@
 ->commit
 	-> git commit -m "feet: added my name"
 ->push
-	-> git push orgin main
+	-> git push origin main
 ->pull
 	-> git pull
 ->git diff
-	-> to differentiat content inside files
+	-> to differentiate content inside files
 ->git branch
 	-> show us current branch we are.
 ->create new branch
@@ -56,7 +56,7 @@
 ->To list all branch like cloud and local
 	->git branch -a
 
--> Readmen.md
+-> Readme.md
 	->https://www.markdownguide.org/basic-syntax/
 ->add token
 	->git remote set-url origin https://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@github.com/TamilTechLearn/Notes.git
