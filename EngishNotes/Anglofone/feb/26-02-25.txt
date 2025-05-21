@@ -1,0 +1,18 @@
+============== DAY 5 ==========================
+=>Vocabulary
+    ->Yawn - yawned - கொட்டாவி
+    ->Scroll - scrolled
+    ->Shrug - shrugged - தோள் குலுக்கு  
+    ->Ignoring Word to speak
+        -> I saw it with my own eyes - I saw it with my eyes
+        -> True Fact - Fact
+        -> Unexpected Surprise - Surprise
+        -> Past History - History
+        -> Assessment Test - Assessment
+        -> Free Gifts -Gifts
+    ->Laid - (படுக்கையிட்ட, செயலாக்கப்பட்ட,பொருத்தப்பட்ட.)
+        The hen laid an egg this morning.
+        கோழி இன்று காலையில் ஒரு முட்டையை இட்டது.
+        The cables were laid underground.
+        கேபிள்கள் நிலத்தடியில் அமைக்கப்பட்டன.
+        

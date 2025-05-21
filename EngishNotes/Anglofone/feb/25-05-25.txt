@@ -1,0 +1,168 @@
+=>Day 4
+    ->https://drive.google.com/file/d/1jPULXV9eKW1U80mJA_ph_kfSG7ZW6p1S/view
+    =>Vocabulary
+        ->Walk and stroll
+            ->Walk
+                ->I Walk
+                ->She walks to the park every morning
+            ->stroll (உலாவு) (joly a garden la nadagarathu)
+                ->I stroll through the garden
+                ->We strolled by the beach
+                ->He went for stroll after lunch.
+        ->stumble (கால் இடறி விழு)
+            ->I stumbled
+            ->I stumbled over a rock while walking.
+                ->I tripped over a rock while I was walking.
+            ->He stumbled on the stairs
+        ->sway (kaya veesi nadakarathu,Asaivathu)
+            ->I sway my hand
+            ->The trees sway in the wind. (breeze-தென்றலகாற்று)
+            ->She swayed to the music.
+        ->Console and Convince
+            ->Console (sogama oruthar irukumpothu poi aruthal soldrathu)
+                ->I Console my kid
+                ->She tried to console her crying friend.
+                ->He consoled his brother after the loss.
+            ->Convince (Orutharku puriya vaikarathu)
+                ->I convince my manager
+                ->She tried  to convince him to stay longer
+                ->He convinced his parents to let him go.
+                    ->He persuaded his parents to allow him to go. (persuaded - வற்புறுத்தினார்)
+
+        -> Focus,Bother and Disturb
+            ->Focus (Oru visiyathula kavanama irukarathu)
+                ->I always Focus
+                ->He couldn't focus with all the noise
+                ->I need to focus on my work.
+            ->Bother (china china dhontharavu) 
+                ->The camera man bothers me.
+                ->It doesn't bother me at all.
+                ->His constant talking bothers everyone in the room.
+            ->Disturb (kastapadutharam mari irukara thontharavu)
+                ->The sound disturbs me.
+                ->She didn't want to disturb the meeting.
+                ->His questions kept disturbing the class.
+
+        ->React (Oru action nadakumpothu nama reaction epadi iruku)
+            ->They reacted quickly to the emergency.
+            ->She reacted with surprise when she saw the gift.
+        ->Reflect (oru action ku rompa think pandromna)
+            ->Don't React but Reflect on the feedback.
+            ->The lake reflect the sky perfectly.
+            ->He reflected on his past mistakes.
+                ->He thought about the mistakes he had made in the past.
+
+        ->Pacify(சமாதானப்படுத்து,அமைதிப்படுத்து)
+            ->Like Console but , Koncham kovama irukaravinga, upset irukaravingala pacify pandrathu
+            ->She tried to pacify the crying baby.
+            ->The teacher pacified the upset students.
+        ->Blame (பழி)
+            ->She blamed him for the mistake.
+            ->They blamed the weather for the delay.
+        ->Recall (நினைவூட்டு)
+            ->Easy a remember aana recall use pananum
+            ->I recall your name.
+            ->I can't recall where I put my keys.
+            ->She tried to recall the details of the story.
+        ->Recollect (நினைவூட்டு)
+            ->kastapatu remember pandrathu
+            ->I am trying to recollect my college memories
+            ->I recollect the time we spent together.
+            ->She recollected all the details from her vacation.
+        ->Remember and Remind
+            ->Remember
+                ->(oru visiyam nama memorila neybagam irukarathu)
+                ->I remember your phone no.
+                ->I remember meeting him at the party.
+            ->Remind
+                ->(oru visiyatha orutharku neyapagapadutharathu)
+                ->Please remind me to call him.
+                ->He reminded me about the meeting at 3 PM.
+                ->She reminded him of his promise.
+        ->Commute and Travel
+            ->Commute
+                ->distance between work and home
+                ->I commute to work everyday.
+                ->He commute to school by bicycle.
+                ->We usually commute during rush hours.
+            ->Travel    
+                ->long distance
+                ->I travel in summer.
+                ->I love to travel new countries.
+                ->They travel to visit family every summer.
+        ->Restrict and Restrain
+            ->Restrict 
+                ->oru visiyatha limit pandrathu
+                ->My mother restrict my phone calls.
+                ->The school decided to restrict the use of mobile phones.
+                ->I will restrict my spending this month.
+            ->Restrain
+                -> Oru visiyatha nadakama thadukarathu 
+                ->I Restrain my dog from running
+                ->She had to restrain herself from eating too much.
+                ->He was restrained by security at the event.
+        ->Saute and Tempering
+            ->Saute 
+                ->vanakarathu like cooking
+                ->I saute vegetables
+                ->She likes to saute vegetables in olive oil.
+                ->He learned how to saute onion for the recipe.
+            ->Tempering
+                ->Thalikarathu
+                ->I am tempering the chutney.
+                ->The chef is tempering the dal with garlic and cumin(சீரகத்துடன்).
+                ->She is tempering the curry with mustard seeds and curry Leaves.
+                    ->mustard seeds (கடுகு)
+        ->Induce and Ignite
+            ->induce (தூண்டுதல்)
+                -> oru visiyatha implements pandrathu
+                ->Milk induces sleep.
+                ->The medicine will induce sleep within a few minutes.
+                ->The speech was meant to induce confidence in the team.
+            ->Ignite
+                ->make some matter to start or trigger
+                ->I ignite the stove.
+                ->The fire will ignite quickly.
+                ->She used a match to ignite the candle.
+        ->Boast and sabotage
+            ->Boast
+                ->Perumiya pesarathu
+                ->He always boasts
+                ->She likes to boast about his achievement.
+                ->She often boast about her cooking skill.
+            ->sabotage
+                ->oru visiyam nadakama keduthu vidrathu
+                ->He sabotaged my plans.
+                ->She believed her colleagues were trying to sabotage her presentation.
+                ->The hackers attempted to sabotage system's security.
+        ->Imitate and Collaborate
+            ->Imitate
+                ->orutha pandramariya pandrathu
+                ->Children imitate their parents.
+                ->She can imitates animal sound very well.
+                ->He tries to imitate his favorite singer.
+            ->Collaborate
+                ->Elarum sernthu oru team a work pandrathu 
+                ->The artist collaborated to make a video.
+                ->She loves to collaborate with others on creative ideas.
+                ->The two companies collaborated on a new product.
+        ->Withdraw and Forgo
+            ->Withdraw(பின் வாங்கு)
+                ->oru visiyathula iruntu pinvanguthal
+                ->I have to withdraw from the competitions
+                ->She decided to withdraw from the competitions.
+                ->I need to withdraw some money from the bank.
+            ->Forgo(விட்டுவிடுங்கள்)
+                ->Oru visiyatha vitu kudukarathu
+                ->I have to forgo the desserts(இனிப்புகள்).
+                ->He decides to forgo dessert to stay healthy.
+                ->He chose to forgo the party and stay home.
+        ->Infringe
+            ->oruthar privacy la thali idrathu
+            ->Don't infringe on other's personal space.
+
+
+
+
+
+

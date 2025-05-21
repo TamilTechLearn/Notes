@@ -1,0 +1,50 @@
+=>https://www.youtube.com/watch?v=NZ8GB7m1T-Q
+    ->விமல் ஒரு கிராமத்தில் வாழ்ந்து வந்தான்.
+        ->Vimal was lived in a village
+    ->அவன் நன்றாக படிக்கும் மாணவனாக இருந்தான்.
+        ->He was a good student.
+    ->அவனுக்கு ஆங்கிலம் மிகவும் கடினமாக இருந்தது.
+        ->English was very hard to him.(wrong)
+        ->English was very difficult to him.
+    ->ஒரு நாள் விமல் தனது அத்தையிடம், ஆங்கிலம் பேச என்ன செய்ய வேண்டும்? என்று கேட்டான்.
+        ->One day Vimal asked his aunt," what should I do to speak English.
+    ->அவனது அத்தை தினமும் சில நிமிடங்கள் பயிற்சி செய் என்று சொன்னார்கள்.
+        ->His aunt said," Practice a few minute daily.(wrong)
+        ->His aunt said," Practice for a few minutes every day.
+    ->விமல் தன்னைத் தானே ஊக்கப்படுத்திக் கொண்டான்.
+        ->Vimal motivated (encouraged) himself.
+    ->அவன் தினமும் சில வார்த்தைகள் கற்க ஆரம்பித்தான்.
+        ->He started learning for a few words every day.
+    ->அவன் தினமும் 15 நிமிடங்கள் எளிய பாடங்களை படித்தான்.
+        -> He studied simple lessons for 15 min every day.
+    ->சில மாதங்கள் கழித்து,அவன் சரளமாக ஆங்கிலம் பேச ஆரம்பித்தான்.
+        ->He begun speaking english fluently after few month.(wrong)
+        ->A few months later , He began speaking english fluently.
+    ->இப்பொழுது அவன் ஒரு MNC-யில் வேலை செய்கிறான்.
+        ->Now he is working in an MNC.
+    ->அவனது முயற்சியும் தொடர் பயிற்சியும் அவனுக்கு வெற்றியை அடைய உதவியது.
+        ->His continuous try and Practice help him to won.(wrong)
+        ->His efforts and consistent Practice helped him achieve success.
+    ->தொடர்ந்து பயிற்சி செய்தால் எதையும் சாதிக்க முடியும்.
+        ->Consistent practice help us to achieve success.
+        ->If you practice regularly anything can be achieved.
+
+Notes:
+
+1. விமல் ஒரு கிராமத்தில் வசித்து வந்தான். (Simple Past)
+Vimal lived in a village.
+2. விமல் ஒரு கிராமத்தில் வசித்து வந்தான். (Present Perfect)
+விமல் 2020 லிருந்து ஒரு கிராமத்தில் வசித்து வந்தான்.
+Vimal lived in a village from 2020.
+
+2. Present perfect tense.
+விமல் 2020 லிருந்து ஒரு கிராமத்தில் வசித்து வந்தான்.
+Vimal has lived in a village since 2020.-(விமல் 2020 முதல் ஒரு கிராமத்தில் வசித்து வருகிறார்).
+
+---
+
+1.நான் 2020 லிருந்து 2023 வரை ஜியோவில் வேலை செய்தேன். Simple past tense.
+I worked in Jio from 2020 to 2023.
+
+2.நான் ஜியோவில் 3 வருடங்கள் வேலை செய்தேன்.
+I worked in Jio for 3 years.

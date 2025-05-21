@@ -1,0 +1,51 @@
+Task 2               
+
+    📝 Translate the sentences from Tamil to English 
+
+    1) மழை பெய்தது.
+        Ans: Its rained
+    2) அவன் ஒப்புக்கொண்டான்
+        Ans: He is accepted or He has accepted.
+    3)நாங்கள் சிரிக்கிறோம்
+        Ans: we are laughing
+    4) அவர்கள் சென்றனர்.
+        Ans: They have gone
+
+
+    📝 Rearrange the sentences
+
+    1) learn / we / lessons / from / our / should / mistakes
+        Ans: We should learn lessons from our mistakes.
+
+    2) was / rainy / yesterday / weather / the
+        Ans: The weather was rainy yesterday
+    3) visit / beach / at / I / the / weekends / the / often
+        Ans: I often visit the beach at the weekends.
+    4) bake / can / cakes / I
+        Ans: I can bake cakes.
+    5) at / he / park / the / plays
+        Ans: He plays at the park. 
+
+    📝 Try framing effective sentences using the right helping verbs for the following subjects
+
+    -Umesh 
+        Ans: Umesh has been working here for 3 years
+    -The cat
+        Ans: The cat is catching a mouse in my home.
+    -Jeena
+        Ans: Jeena can solve complex math problems
+    -The Burj Khalifa
+        ->The Burj Khalifa is the tallest building in the world.
+    -My parents
+        ->My parents always supported me for mt decisions
+    -The children
+        ->The children are playing in the garden.
+
+    ->ChatGPT
+        -> Umesh has completed his project on time.
+        -> The cat is chasing a butterfly in the garden.
+        -> Jeena can solve complex math problems quickly.
+        -> The Burj Khalifa has been the tallest building in the world for years.
+        -> My parents have always supported me in my decisions.
+        -> The children were playing in the park before it started raining.
+                    

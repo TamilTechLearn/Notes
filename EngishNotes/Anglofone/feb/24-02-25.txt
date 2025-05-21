@@ -1,0 +1,83 @@
+=>Day-3
+    ->https://drive.google.com/file/d/1-c9ADrQk3_KP9JTeh44NApNZE0dG6r5x/view
+    =>Video
+        ->
+        ->Everyone found the book controversial
+        ->I squint (நான் கண் சிமிட்டுகிறேன்)
+        ->We scream (நாங்கள் கத்துகிறோம்)
+        ->They run
+        ->Eg-10
+            1.Birds fly.
+            2.Waves crash-அலைகள் மோதுகின்றன
+            3.Children laugh
+            4.Leaves fall -Leaves fall
+            5.Wolves howling (ஓநாய்கள் ஊளையிடுகின்றன)
+            6.Teachers teach
+            7.Cars honking -(கார்கள் சத்தம் போடுகின்றன)
+            8.Wind blows -(காற்று வீசுகிறது)
+            9.Plants grows -(Plants grows)
+            10.Time flies - நேரம் பறக்கிறது
+        ->Subject
+            ->A person or thing being considered,shown or talked about.
+        ->Verb
+            ->Verb is a word or group of words that describes an actions,state, or occurrence(சம்பவம்)
+            =>Types & Definitions
+                1.Main / Base Verb      13.Modal Verb
+                2.Regular Verb          14.Reflexive Verb
+                3.Irregular Verb        15.Infinitive
+                4.Transitive Verb       16.Ergative Verb
+                5.Intransitive Verb     17.Phrasal Verb
+                6.Weak Verb             18.Lexical Verb
+                7.Strong Verb           19.Delexical Verb
+                8.Finite Verb           20.Stative Verb
+                9.Non-Finite Verb       21.Dynamic Verb
+                10.Action Verb          22.Participle
+                11.Linking Verb         23.Gerund
+                12.Auxiliary Verb       24.Non-continuous Verb
+            =>Main Verb 
+                ->Speak about physical and mental actions 
+                    ->Physical Actions
+                        e.g, Read,Write,Jump,Bend,Kick,Wring(துனி புளிதல்),Skid(சறுக்கல்,valik vilrathu)
+                    ->Mental Actions
+                        e.g, Think,Remember,Forget,Analyse,Imagine,contemplate(சிந்தனை செய் confusinga irukumpothu think pandrathu)
+            =>Auxiliary Verb( Helping verbs )
+                ->Three Category
+                    ->Be form
+                        ->am,is,are,was,were
+                    ->Have Form
+                        ->have,has,had
+                    ->Do Form 
+                        ->do,does
+            =>Modal Verb
+                ->Definitions
+                    ->It is a type of verb that contextually indicates a modality such as likelihood,ability,permission
+                        request,capacity,suggestion,order,obligation,necessity,possibility and advice.
+
+                ->Can,could,will,would,shall,should,may,might
+            =>Object
+                ->The object of the sentence is the person or things that receive tha action of the verb.
+            =>Complement Sentence (to describe a Subject)-(நிரப்பு வாக்கியம்)
+                e.g,
+                    ->The coffee is too hot.
+                    ->She feels relaxed
+                    ->The Movie was entertaining.
+                    ->The weather is nice today.
+                    ->She become more confident
+                    ->The music sounds soothing.
+                    ->The book was a bestseller.
+                    ->The soup tastes delicious.
+            =>Declarative Sentence(அறிவிப்பு வாக்கியம்)
+                ->Definitions
+                    ->Opinion,Statement,Fact,Information
+                ->e.g,
+                    ->The phone is charging
+                    ->The garbage is taken out.
+                    ->The plants wants watering
+                    ->The lights are on.
+                    ->The TV is turned off.
+                    ->The Car parked outside.
+                    ->The sofa is comfortable.
+                    ->The document is confidential.
+                    ->The project is on track.
+
+           

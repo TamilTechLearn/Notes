@@ -1,0 +1,6 @@
+=======================DAY 8==========================
+
+=>ACCENT  TRAINING
+    ->IPA
+        ->International Phonetic Alphabet.
+        
