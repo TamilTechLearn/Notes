@@ -1,0 +1,160 @@
+=>cron_check_url
+	https://zonefunnel-dev.com/cron_job_new/public/admin/cron_check?time=1
+=>Sql Check
+	https://zonefunnel-dev.com/TotalTesting/public/sqlEmail?view=1
+=>ShippingCheck
+	https://zonefunnel-dev.com/TotalTesting/public/checkShipping
+	 
+ =>po_number_bulk_redownload
+ 		->UPDATE `wb_warehouse_ecommerceapisettings_postacutrack` SET `WB_Warehouse_PO_Number`=CONCAT(WB_Warehouse_PO_Number,'_redownloaded') WHERE `WB_Warehouse_ECommID`=790 AND WB_Warehouse_status=3
+ 		->SELECT *  FROM `wb_warehouse_ecommerceapisettings_postacutrack` 
+=>Tiktok
+	->get_all_orders
+		->https://zonefunnel-dev.com/Static/Shops/TikTok/get_orders.php?app_key=6bv93b6nfdfr5&app_secret=266262e17b8072439fa0bbdf1b917f11d52373aa&status=AWAITING_SHIPMENT
+	->get_single_orders
+		->https://zonefunnel-dev.com/Static/Shops/TikTok/get_order_details.php?app_key=6bgrmts873a8c&app_secret=ae1a4d95e14459f22e44a6e1771c196d2965298a&order_id=576872835875640260
+=>tiktok URL change
+	->integration
+		->https://zonefunnel-dev.com/
+		->clientid ,shopid-61
+		->filterSetting
+			->[{"tag":"fulfillment_type","condition":"!=","value":"FULFILLMENT_BY_TIKTOK"}]
+		->refer-619 for get,and postcontent
+		->ship_id
+			->INSERT INTO `wb_warehouse_params` (`id`, `WB_Warehouse_ECommApi_ID`, `WB_Warehouse_ECommApi_Key`, `WB_Warehouse_ECommApi_Value`, `WB_Warehouse_ECommApi_Desc`, `WB_Warehouse_Default`) VALUES (NULL, '1733', 'clientid', '711', NULL, '0'), (NULL, '1733', 'shopid', '61', NULL, '0');
+=>FTP
+	-> https://zonefunnel.info/CronJobs/Augsburg/FromAusburgFtpDownload.php
+=>Credentials
+	->Acutrack portal credentials
+			ranguraj@acutrack.com
+			Sarnitha@7281
+	->https://zonefunnel.com/Monitor/Acutrack/login
+		 ->us:Admin,ps:ZoneLOG@2022
+	
+=>OrderSheet URL
+	->orderSheet-32,wix-34,shopify-50,funnelFuries-56
+	->https://zonefunnel-dev.com/CronJobs/download_orders.php?shop=32&portal=1
+	->https://zonefunnel-dev.com/CronJobs/post_orders.php?shop=32&portal=1
+	->https://zonefunnel-dev.com/CronJobs/excel_update_orders.php?shop=32&portal=1
+
+=>Shopify
+	->[{"tag":"line_items->fulfillable_quantity","condition":">","value":"0"}]
+	->fulfilment_Status
+			->unfulfilled and partial = "Unfulfilled" meaning unshipped and partial orders came
+			->No partial= unshipped
+			->partial order only = partial
+			->"unfulfilled,shipped"- both fulfilled and unfulfilled and partial order came
+	->shipment_faield
+		 ->https://obvious-mimic.myshopify.com/admin/api/2024-01/orders/5890850160960/fulfillment_orders.json
+		 	->location id should be match
+		 	->status not be closed
+	->financial_status
+		->paid,partially_refunded
+	->since_id
+	->To count orders
+		https://21bmh1-xx.myshopify.com/admin/api/2024-01/orders/count.json?financial_status=paid&limit=250&created_at_min=2025-04-25&fulfillment_status=unfulfilled,shipped&status=open&name=%234109
+		
+=>woocomerce
+	->get specific order number details
+		->https://hatdbuilder.com/wc-api/v3/orders/8730?consumer_secret=cs_89fb98f6902e47cd8b5524a3dcbf63ca8d2e933e&consumer_key=ck_35182e29795222c407416a7dfa65725b4e646752&filter[created_at_min]=2024-09-01
+	->{{One Day Before(YYYY/MM/DD)}}
+	->HPOS shoudl have disabled , then only order will come.
+
+ 	
+=>LiveTegsetting
+		->https://zonefunnel-dev.com/TotalTesting/public/localTest	
+=>Webhook links
+	->https://webhooks.acutrack.com/v1/10009/38/539 -url/ApiKey/AppID/HookID
+
+=>Webhooks (GoHighLevel)
+	->order not downloaded
+		->https://webhooks.acutrack.com/v1/10009/38/539
+			->old portal
+					->SELECT * FROM `WB_Warehouse_WebHooks` WHERE  `WB_Warehouse_WebHooks_HooksID`=539   AND WB_Warehouse_WebHooks_PostContent LIKE "%zByCQl2gukF9J7CtOoVq%"
+						=>Get WB_Warehouse_WebHooks_ID
+							->serach postacurack table in column -(updatecontent)-after report order status
+							->SELECT JSON_EXTRACT(WB_Warehouse_PostContent, '$.orderItems[0].sku') FROM `wb_warehouse_ecommerceapisettings_postacutrack` WHERE `WB_Warehouse_ECommID` = 1112 AND WB_Warehouse_UpdateContent LIKE '%431801%' OR WB_Warehouse_UpdateContent LIKE '%440701%' 
+
+=>Email notification send(for specific order)
+	->shopi id search (53) in customer table
+		->enable 
+			->WB_Warehouse_status - 0
+			->WB_Warehouse_CronEnabled_Status - 0
+		->postacutrack table
+			->download all orders and change the status to 1 except that one order
+					->attemp_count,status,update_status to 1
+			->post that one order
+			->run cron
+				->https://zonefunnel-dev.com/CronJobs/download_orders.php?shop=53&portal=1
+				->https://zonefunnel-dev.com/CronJobs/post_orders.php?shop=53&portal=1
+				->https://zonefunnel-dev.com/CronJobs/update_orders.php?shop=53&portal=1
+
+
+=>Javascript
+	->Unique Array
+		->a.filter((v,i,ar)=>ar.indexOf(v)===i)
+
+=>Works
+	->586 monitor shipping is updated
+
+=>Extract 
+	->JSON_EXTRACT(WB_Warehouse_PostContent, '$.orderItems[0].sku')
+	->JSON_EXTRACT(WB_Warehouse_ResponseContent, '$.order.metadata.description') for gohighlevel (cleint-539)
+
+=>ftp://192.168.1.4:2221/
+Fibonacci probability studies
+
+->to get webhooks list
+	SELECT b.WB_Warehouse_Shop_ID,c.WB_Warehouse_Shop_Name,count(*) FROM wb_warehouse_params a 
+	LEFT JOIN wb_warehouse_ecommerceapisettings_customers b ON a.WB_Warehouse_ECommApi_ID=b.WB_Warehouse_ECommApi_ID
+	LEFT JOIN wb_warehouse_shops c ON c.WB_Warehouse_Shop_ID=b.WB_Warehouse_Shop_ID
+	WHERE a.WB_Warehouse_ECommApi_Key NOT LIKE '%AppID%'
+	GROUP BY b.WB_Warehouse_Shop_ID;
+->Mapsetting
+	->wb_warehouse_myapisettingmethods(WB_Warehouse_MyApi_ID(from_id),WB_Warehouse_MyApi_MethodName(from_method))
+		->omit
+			->WB_Warehouse_MyApi_ResponseConfigure
+
+=>ShopifyTrackCheck
+	SELECT `WB_Warehouse_ECommID`,COUNT(*) FROM `wb_warehouse_ecommerceapisettings_postacutrack` WHERE `WB_Warehouse_Shop_ID` = 25 AND `WB_Warehouse_FromID` = 77 AND `WB_Warehouse_updatestatus` = 0 and WB_Warehouse_Post_Attempt_Count<3 and WB_Warehouse_status in (0,3) and WB_Warehouse_Client_ID =100 GROUP BY WB_Warehouse_ECommID;
+
+
+	SELECT `WB_Warehouse_ECommID`,`WB_Warehouse_Client_ID`,COUNT(*) FROM `wb_warehouse_ecommerceapisettings_postacutrack` 
+	WHERE `WB_Warehouse_Shop_ID` = 25 
+	AND WB_Warehouse_status IN(0,3)
+	AND `WB_Warehouse_FromID` = 77 
+	AND WB_Warehouse_Post_Attempt_Count=3
+	AND WB_Warehouse_ECommID IN(1223)
+	GROUP BY WB_Warehouse_ECommID;
+
+	select `WB_Warehouse_ECommID`,`WB_Warehouse_Client_ID`,COUNT(*) 
+        from `wb_warehouse_ecommerceapisettings_postacutrack` WHERE `WB_Warehouse_ReturnMessage` LIKE "%Exceeded%" GROUP BY WB_Warehouse_ECommID;
+
+=>shipbop
+	->order-download-count
+ 		SELECT WB_Warehouse_ECommID,COUNT(*) as tot FROM `wb_warehouse_ecommerceapisettings_postacutrack` WHERE `WB_Warehouse_ECommID` IN(1709, 1710) AND WB_Warehouse_Post_Attempt_Count=0 AND WB_Warehouse_status=0 GROUP BY WB_Warehouse_ECommID;
+
+ ->Check-failed-Orders
+ 		SELECT * FROM `wb_warehouse_ecommerceapisettings_postacutrack` WHERE `WB_Warehouse_ECommID` = 1710 AND `WB_Warehouse_status` = 3 AND WB_Warehouse_PO_Number NOT LIKE "%redownload%";
+
+->ConvertUTCtoISTFunc
+
+->redsky
+	->686-ecomId
+		->line_items->properties->value should be in ["T-shirt Size","T-Shirt"]
+
+	->688
+		->2024-11-25
+	
+	INSERT INTO `wb_warehouse_params` (`id`, `WB_Warehouse_ECommApi_ID`, `WB_Warehouse_ECommApi_Key`, `WB_Warehouse_ECommApi_Value`, `WB_Warehouse_ECommApi_Desc`, `WB_Warehouse_Default`) VALUES (NULL, '688', 'name', '%2352729', NULL, '0');
+
+	UPDATE `wb_warehouse_ecommerceapisettings_customers` SET `WB_Warehouse_status` = '1' WHERE `WB_Warehouse_ECommApi_ID` IN (686,687,1463,1464)
+	UPDATE `wb_warehouse_ecommerceapisettings_customers` SET `WB_Warehouse_status` = '1' WHERE `WB_Warehouse_ECommApi_ID` IN (688,689,1463,1464);
+
+	SELECT *  FROM `wb_warehouse_ecommerceapisettings_postacutrack_25` 
+		WHERE `WB_Warehouse_ECommID` = 688 AND WB_Warehouse_PO_Number IN ()
+
+
+
+
+
