@@ -4,6 +4,8 @@
 	https://zonefunnel-dev.com/TotalTesting/public/sqlEmail?view=1
 =>ShippingCheck
 	https://zonefunnel-dev.com/TotalTesting/public/checkShipping
+		->Sql
+			->SELECT `WB_Warehouse_ECommID`,`WB_Warehouse_Client_ID`,COUNT(*) as tot FROM `wb_warehouse_ecommerceapisettings_postacutrack_25` WHERE `WB_Warehouse_Shop_ID` = 25 AND WB_Warehouse_status IN(0,3) AND `WB_Warehouse_FromID` = 77 AND WB_Warehouse_Post_Attempt_Count=3 GROUP BY WB_Warehouse_Client_ID,WB_Warehouse_ECommID ORDER BY tot;
 	 
  =>po_number_bulk_redownload
  		->UPDATE `wb_warehouse_ecommerceapisettings_postacutrack` SET `WB_Warehouse_PO_Number`=CONCAT(WB_Warehouse_PO_Number,'_redownloaded') WHERE `WB_Warehouse_ECommID`=790 AND WB_Warehouse_status=3
@@ -13,6 +15,7 @@
 		->https://zonefunnel-dev.com/Static/Shops/TikTok/get_orders.php?app_key=6bv93b6nfdfr5&app_secret=266262e17b8072439fa0bbdf1b917f11d52373aa&status=AWAITING_SHIPMENT
 	->get_single_orders
 		->https://zonefunnel-dev.com/Static/Shops/TikTok/get_order_details.php?app_key=6bgrmts873a8c&app_secret=ae1a4d95e14459f22e44a6e1771c196d2965298a&order_id=576872835875640260
+
 =>tiktok URL change
 	->integration
 		->https://zonefunnel-dev.com/
@@ -146,7 +149,7 @@ Fibonacci probability studies
 	->688
 		->2024-11-25
 	
-	INSERT INTO `wb_warehouse_params` (`id`, `WB_Warehouse_ECommApi_ID`, `WB_Warehouse_ECommApi_Key`, `WB_Warehouse_ECommApi_Value`, `WB_Warehouse_ECommApi_Desc`, `WB_Warehouse_Default`) VALUES (NULL, '688', 'name', '%2352729', NULL, '0');
+	INSERT INTO `wb_warehouse_params` (`id`, `WB_Warehouse_ECommApi_ID`, `WB_Warehouse_ECommApi_Key`, `WB_Warehouse_ECommApi_Value`, `WB_Warehouse_ECommApi_Desc`, `WB_Warehouse_Default`) VALUES (NULL, '688', 'name', '%2360145', NULL, '0');
 
 	UPDATE `wb_warehouse_ecommerceapisettings_customers` SET `WB_Warehouse_status` = '1' WHERE `WB_Warehouse_ECommApi_ID` IN (686,687,1463,1464)
 	UPDATE `wb_warehouse_ecommerceapisettings_customers` SET `WB_Warehouse_status` = '1' WHERE `WB_Warehouse_ECommApi_ID` IN (688,689,1463,1464);
